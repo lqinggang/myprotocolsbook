@@ -1,0 +1,32 @@
+{
+  "name": "myprotocolsbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "export NODE_OPTIONS=--openssl-legacy-provider && npx vuepress dev docs",
+    "docs:build": "export NODE_OPTIONS=--openssl-legacy-provider && npx vuepress build docs",
+    "deploy": "export NODE_OPTIONS=--openssl-legacy-provider && npx gh-pages -d .vuepress/dist",
+    "deploy:build": "export NODE_OPTIONS=--openssl-legacy-provider && npm run docs:build && npx gh-pages -d .vuepress/dist"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/lqinggang/myprotocolsbook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lqinggang/myprotocolsbook/issues"
+  },
+  "homepage": "https://github.com/lqinggang/myprotocolsbook#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-right-anchor": "^0.5.5",
+    "vuepress-plugin-side-anchor": "^1.0.6"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
