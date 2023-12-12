@@ -28,7 +28,14 @@ module.exports = {
             {
                 title: 'SIP 协议',
                 children: [
-                    [ '/sip/', 'SIP 协议' ]
+                    [ '/sip/format.md', '协议格式说明' ],
+                    [ '/sip/nominal.md', '部分名词解析' ],
+                    [ '/sip/status_code.md', '状态码' ],
+                    [ '/sip/respond.md', '响应处理' ],
+                    [ '/sip/session_init.md', '会话初始化' ],
+                    [ '/sip/session_terminate.md', '会话终止' ],
+                    [ '/sip/transaction.md', '事务' ],
+                    [ '/sip/transmit.md', '传输' ]
                 ]
             },
             {
