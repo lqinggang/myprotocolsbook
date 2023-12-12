@@ -47,7 +47,7 @@ module.exports = {
             {
                 title: 'SDP 协议',
                 children: [
-                    [ '/sdp/', 'SDP 协议' ]
+                    [ '/sdp/sdp.md', 'SDP 协议' ]
                 ]
             },
             [ '/reference.md', '参考文献' ]
