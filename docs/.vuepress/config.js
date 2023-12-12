@@ -41,7 +41,7 @@ module.exports = {
             {
                 title: 'RTP 协议',
                 children: [
-                    [ '/rtp/', 'RTP 协议' ]
+                    [ '/rtp/rtp.md', 'RTP 协议' ]
                 ]
             },
             {
